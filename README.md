@@ -26,10 +26,8 @@ DBNAME = 'gallery'
 USER = ''
 PASSWORD = ''
 DEBUG = True
-Run initial Migration
+## Run initial Migration
 python3.6 manage.py makemigrations gall; python3.6 manage.py migrate Run the app python3.6 manage.py runserver Open terminal on localhost:8000
-
-Known bugs Copy functionality does not work
 
 Technologies used
 

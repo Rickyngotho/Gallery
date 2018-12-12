@@ -12,7 +12,7 @@ python virtualenv
 Clone the Repo Run the following command on the terminal: git clone https://github.com/Rickyngotho/Gallery.git && cd Zoom
 Activate virtual environment Activate virtual environment using python3.6 as default handler
 
-virtualenv -p /usr/bin/python3.6 venv && source venv/bin/activate
+virtual-p /usr/bin/python3.6 venv && source virtual/bin/activate
 
 Install dependancies
 Install dependancies that will create an environment for the app to run pip3 install -r requirements.txt

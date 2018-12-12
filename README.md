@@ -29,7 +29,7 @@ DEBUG = True
 ## Run initial Migration
 python3.6 manage.py makemigrations gall; python3.6 manage.py migrate Run the app python3.6 manage.py runserver Open terminal on localhost:8000
 
-Technologies used
+## Technologies used
 
 Python 3.6
 HTML
@@ -37,6 +37,6 @@ Bootstrap 4
 JavaScript
 Heroku
 Postgresql Support and contact details Contact me on gicheric14@gmail.com for any comments, reviews or advice.
-License
+## License
 
 MIT Copyright (c) ERIC N.G

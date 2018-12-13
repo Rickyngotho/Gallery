@@ -10,8 +10,8 @@ def welcome(request):
 
 def photos_of_day(request):
     date = dt.date.today()
-    news = Pic.todays_photos()
-    return render(request, 'all-photos/todays-photos.html', {"date": date,"photos":photos})
+    photos = Pic.get_all()
+    return render(request, 'all-photos/todays_photos.html', {"date": date,"photos":photos})
 
 def convert_dates(dates):
 
@@ -58,4 +58,4 @@ def Pic(request,pic_id):
         Pic = Pic.objects.get(id = pic_id)
     except DoesNotExist:
         raise Http404()
-    return render(request,"all-photo/pic.html", {"pic":pic})
+    return render(request,"all-photos/pic.html", {"pic":pic})

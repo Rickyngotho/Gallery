@@ -3,6 +3,7 @@ By ERIC NGOTHO
 
 ## Description
 ART_GALLERY is a simple photo gallery web application to showcase beautiful pictures and designs. Users get to view photos updated by the site admin. Users can see photos based on the location, by clicking on the listed locations in the menu. They can also copy the link to a photo to paste at their discretion. The search functionality will search photos based on the categories.
+You can find the app at https://gallerick.herokuapp.com/  
 ## Set Up and Installations
 ### Prerequisites
 Ubuntu Software

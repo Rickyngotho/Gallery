@@ -10,8 +10,8 @@ def welcome(request):
 
 def photos_of_day(request):
     date = dt.date.today()
-    photos = Pic.get_all()
-    return render(request, 'all-photos/todays_photos.html', {"date": date,"photos":photos})
+    # photos = Pic.todays_photos()
+    return render(request, 'all-photos/today-photos.html', {"date": date})
 
 def convert_dates(dates):
 

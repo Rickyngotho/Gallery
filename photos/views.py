@@ -10,11 +10,10 @@ def welcome(request):
 
 def photos_of_day(request):
     date = dt.date.today()
-    # photos = Pic.todays_photos()
-    return render(request, 'all-photos/today-photos.html', {"date": date})
+    photos = pic.objects.all()
+    return render(request, 'all-photos/today-photos.html', {"date": date,"photos":photos})
 
 def convert_dates(dates):
-
     # Function that gets the weekday number for the date.
     day_number = dt.date.weekday(dates)
 
